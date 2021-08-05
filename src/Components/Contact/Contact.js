@@ -6,9 +6,9 @@ render() {
     <div className="contact">
     <div className="Contact_page">
     <p className="labels">Contact Me</p>
-    {/* <div className="contact_image">
+    <div className="contact_image">
       <img src="contact2.jpg"></img>
-    </div> */}
+    </div>
     <div>
     <form action="/action_page.php">
     <label>First Name</label>
