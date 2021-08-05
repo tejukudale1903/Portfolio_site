@@ -4,19 +4,9 @@
     /* margin-left: 50px; */
    display: flex;
    justify-content: space-between;
-
-   @media only screen and (min-width: 1024px) {
-    width: 100%;
-    }
-    @media only screen and (min-width : 768px) {
-        width: 75%;
-        /* background-color: green; */
-      }
-      @media only screen and (min-width : 992px) {
-        width: 50%;
-        /* background-color: pink; */
-      }
 }
+  
+
 .main_page p{
     font-size: 83px;
     font-family: "Playfair Display", serif;
@@ -60,7 +50,7 @@
 
 .about{
     padding: 100px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     padding-top: 0;
 }
 .about h3{
@@ -119,7 +109,7 @@ padding-top: 20px;
 .work{
     padding: 100px;
     padding-bottom: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     display: flex;
 }
 .work img{
@@ -136,7 +126,7 @@ padding-top: 20px;
 
 .skills{
     padding-left: 100px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: 50%;
 }
 .skills p{
@@ -174,7 +164,7 @@ padding-top: 20px;
  .resume_page{
      padding-top: 50px;
      padding-left: 100px ;
-   margin-left: 50px;
+   /* margin-left: 50px; */
     justify-content: space-between;
     display: flex;
     /* display: inline-block; */
