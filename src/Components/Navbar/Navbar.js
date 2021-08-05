@@ -13,7 +13,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <nav className="NavbarItems">
-          <a href="#" onClick={foo}>
+          <a href="#">
             <img className="header_logo" src="new_header_logo.jpg" alt="Header"></img>
           </a>
           <h3 className="navbar_logo">Tejashree </h3>
