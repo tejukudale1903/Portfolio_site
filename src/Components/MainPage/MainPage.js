@@ -21,7 +21,7 @@ class MainPage extends React.Component {
             </div>
           </div>
           <div>
-            <img src="Photograph.jpg"></img>
+            <img src="Photograph.jpg" alt="My_Photo"></img>
           </div>
         </div>
 
@@ -44,12 +44,12 @@ class MainPage extends React.Component {
             </p>
           </div>
           <div>
-            <img src="meta-chart.png"></img>
+            <img src="meta-chart.png" alt="skills"></img>
           </div>
         </div>
         <div className="work">
           <div>
-            <img src="work.jpg"></img>
+            <img src="work.jpg" alt="Laptop_with_cofee_mug"></img>
           </div>
 
           <div className="project">
@@ -61,7 +61,7 @@ class MainPage extends React.Component {
               engine.
             </p>
             <div className="project_link">
-              <a href="https://myiotproject890967901.wordpress.com/" target="_blank">
+              <a href="https://myiotproject890967901.wordpress.com/" target="_blank" rel="noreferrer">
                 Learn More
               </a>
             </div>
@@ -96,9 +96,9 @@ class MainPage extends React.Component {
             </div>
            
             
-            <div className="linked_icon"><a href="https://www.linkedin.com/in/tejashree-kudale-0134ab1a4/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
-            <div className="twitter_icon"><a href="https://twitter.com/Tejashr20316059" target="_blank"><i class="fab fa-twitter-square"></i></a></div>
-            <div className="github_icon"><a href="https://github.com/tejukudale1903" target="_blank"><i class="fab fa-github"></i></a></div>
+            <div className="linked_icon"><a href="https://www.linkedin.com/in/tejashree-kudale-0134ab1a4/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a></div>
+            <div className="twitter_icon"><a href="https://twitter.com/Tejashr20316059" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a></div>
+            <div className="github_icon"><a href="https://github.com/tejukudale1903" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></div>
             </div>
           </div>
         </div>
