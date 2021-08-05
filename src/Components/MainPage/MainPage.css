@@ -4,6 +4,18 @@
     margin-left: 50px;
    display: flex;
    justify-content: space-between;
+
+   @media only screen and (min-width: 1024px) {
+    width: 100%;
+    }
+    @media only screen and (min-width : 768px) {
+        width: 75%;
+        /* background-color: green; */
+      }
+      @media only screen and (min-width : 992px) {
+        width: 50%;
+        /* background-color: pink; */
+      }
 }
 .main_page p{
     font-size: 83px;
