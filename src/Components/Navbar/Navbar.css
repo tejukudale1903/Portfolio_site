@@ -1,0 +1,109 @@
+.NavbarItems{
+    /* background :linear-gradient(90deg,rgb(110,94,254) 0%,rgba(73,63,252,1) 100%); */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    background-color:white;
+    width: 100%;
+}
+
+.navbar_logo{
+    color: rgb(235, 19, 188);
+    
+}
+.navbar_logo2{
+    color: rgb(95, 120, 231);
+    margin-left: 0.5rem;
+    
+}
+.header_logo{
+    height: 60px;
+    width: 60px;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap:10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    /* color: white; */
+    color: rgb(135, 18, 245);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+    background-color: rgb(164, 176, 247);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars
+{
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+}
+/* 
+.main_page{
+    padding: 100px;
+    margin-left: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.main_page p{
+    font-size: 83px;
+    font-family: "Playfair Display", serif;
+    padding-top: 30px;
+    weight: 800px;
+    line-height: 91px;
+}
+.main_page h2{
+    padding-top: 0;
+    font-family: "Playfair Display", serif;
+    color: rgb(117, 131, 152);
+    font-size: 40px;
+    weight: 800px;
+    line-height: 42px;
+}
+.main_page img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin-right: 120px;
+}
+
+.main_page i{
+    color: blue;
+    font-size: 20px;
+}
+.mail{
+    
+    font-size: 20px;
+    padding-top: 90px;
+   
+}
+.phone{
+    padding-top: 15px;
+}
+.mailid{
+    padding-left: 11px;
+    font-family: ;
+}
+
+.about p{
+font-size: 25px;
+} */
