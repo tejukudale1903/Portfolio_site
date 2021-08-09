@@ -27,24 +27,41 @@ class MainPage extends React.Component {
 
         <div className="about" id="about">
           <h3>About me</h3>
+          <p>
+            {/* {" "} */}
+            Recently, I have completed my Bachlor Of Engineering (Graduation) from Pune University and 
+            I am selected as a Software Engineer at Persistent Systems located in
+            Pune,Maharashtra.
+          </p>
           <div className="cards">
           <div className="card_img">
             <div className="education">
               <p>Education</p>
+              <span><b>2017-2021</b> : Graduation</span><br></br>
+              <span>Bachlor of Engineering in Computer Science</span><br></br>
+              <span>University : Savitribai Phule Pune University</span><br></br>
+              <span><b>2015-2017</b> : Higher Secondary School(HSC)</span><br></br>
+              <span>College Name : Aakutai Kalyani Girls College</span>
             </div>
           </div>
           <div className="card_img">
           <div className="certificates">
               <p>Certificates</p>
+              <ol>
+              <li>Microsoft Certified in Azure Fundamentals</li>
+               
+              <li>AWS Fundamentals Course authorized by AWS
+              </li>
+              <li>AWS Machine Learining authorized by AWS</li>
+              <li>Build a Full Website using WordPress
+              </li>
+              <li>Hadoop 101 course provided by IBM 
+               </li>
+              </ol>
             </div>
           </div>
           </div>
-          <p>
-            {" "}
-            Currently, I'm doing a Bachlor Of Engineering in Computer Science.I
-            am selected as a Software Engineer at Persistent Systems located in
-            Pune,Maharashtra. I will be joining Persistent Systems soon.
-          </p>
+          
         </div>
         <div className="skill-page" id="skills">
           <div className="skills">
