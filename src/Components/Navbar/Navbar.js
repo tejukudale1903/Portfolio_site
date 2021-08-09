@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuItems } from "./MenuItems";
+// import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 import {Link} from 'react-scroll';
 
@@ -37,12 +37,12 @@ class Navbar extends React.Component {
           </ul> */}
           <div className="nav-menu">
  <div >
-         <a href="#" className="nav" className="nav-links"> <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></a>
-         <a href="#" className="nav" className="nav-links"> <Link  to="about" spy={true} smooth={true}>About</Link></a>
-          <a href="#" className="nav" className="nav-links"><Link  to="skills" spy={true} smooth={true}>Skills</Link></a>
-          <a href="#" className="nav" className="nav-links"><Link  to="project" spy={true} smooth={true}>Project</Link></a>
-         <a href="#" className="nav" className="nav-links"><Link  to="resume" spy={true} smooth={true}>Resume</Link></a>
-         <a href="#" className="nav" className="nav-links"><Link  to="contact" spy={true} smooth={true}>Contact</Link></a>
+         <li className="nav-links"> <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
+         <li className="nav-links"> <Link  to="about" spy={true} smooth={true}>About</Link></li>
+          <li className="nav-links"><Link  to="skills" spy={true} smooth={true}>Skills</Link></li>
+          <li className="nav-links"><Link  to="project" spy={true} smooth={true}>Project</Link></li>
+         <li className="nav-links"><Link  to="resume" spy={true} smooth={true}>Resume</Link></li>
+         <li className="nav-links"><Link  to="contact" spy={true} smooth={true}>Contact</Link></li>
            
          </div>
          </div>

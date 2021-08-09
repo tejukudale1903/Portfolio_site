@@ -42,6 +42,7 @@
     color: rgb(135, 18, 245);
     text-decoration: none;
     padding: 0.5rem 1rem;
+    padding-right: 25px;
 }
 
 .nav-links:hover{
@@ -54,17 +55,17 @@
 {
     color: #fff;
 }
-.nav{
-    padding-right: 25px;
-}
-.menu-icon{
+/* .nav{
+    padding-right: 25px; */
+/* }
+.menu-icon{ */
     /* display: none; */
   
     /* list-style: none;
     justify-content: space-around;
         text-decoration: none;
         float: right; */
-}
+
 /* 
 .main_page{
     padding: 100px;
