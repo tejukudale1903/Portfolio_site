@@ -28,13 +28,22 @@
 
 .nav-menu{
     display: grid;
+    text-decoration: none;
+    /* display: flex; */
     grid-template-columns: repeat(5,auto);
     /* grid-gap:10px; */
     list-style: none;
     text-align: center;
     width: 70vw;
+    /* display: inline; */
     justify-content: end;
     margin-right: 2rem;
+}
+.nav-menu ul{
+    list-style-type:none;
+}
+.nav-menu li{
+    display: inline;
 }
 
 .nav-links{
