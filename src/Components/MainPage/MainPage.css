@@ -178,6 +178,32 @@ padding-top: 20px;
     width: 450px;
     border-radius: 100%; 
 } */
+.education{
+    /* text-align: center; */
+    font-size: 30px;
+  padding-top: 10px;
+  padding-left: 190px;
+  color: tomato;
+  font-style:italic;
+}
+.certificates{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 190px;
+    color: tomato;
+    font-style:italic;
+}
+.cards{
+    display: flex;
+}
+.card_img{
+    background-image: url("../../images/simple_back.jpg");
+    background-size: 500px 300px;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
 .resume_img {
     
     

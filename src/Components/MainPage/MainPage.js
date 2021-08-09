@@ -5,7 +5,7 @@ class MainPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="main_page">
+        <div className="main_page" id="home">
           <div>
             <h4>Hello,my name is</h4>
             <p>Tejashree Kudale</p>
@@ -25,8 +25,20 @@ class MainPage extends React.Component {
           </div>
         </div>
 
-        <div className="about">
+        <div className="about" id="about">
           <h3>About me</h3>
+          <div className="cards">
+          <div className="card_img">
+            <div className="education">
+              <p>Education</p>
+            </div>
+          </div>
+          <div className="card_img">
+          <div className="certificates">
+              <p>Certificates</p>
+            </div>
+          </div>
+          </div>
           <p>
             {" "}
             Currently, I'm doing a Bachlor Of Engineering in Computer Science.I
@@ -34,7 +46,7 @@ class MainPage extends React.Component {
             Pune,Maharashtra. I will be joining Persistent Systems soon.
           </p>
         </div>
-        <div className="skill-page">
+        <div className="skill-page" id="skills">
           <div className="skills">
             <h1>My skills</h1>
             <p>
@@ -47,12 +59,12 @@ class MainPage extends React.Component {
             <img src="meta-chart.png" alt="skills"></img>
           </div>
         </div>
-        <div className="work">
+        <div className="work" id="project">
           <div>
             <img src="work.jpg" alt="Laptop_with_cofee_mug"></img>
           </div>
 
-          <div className="project">
+          <div className="project" >
             <h3>Projects done</h3>
             <p>Me and my team worked on project whose title is-</p>
             <p>
@@ -68,7 +80,7 @@ class MainPage extends React.Component {
           </div>
         </div>
 
-        <div className="resume_page">
+        <div className="resume_page" id="resume">
           <div className="resume_img">
             <div>
               <div className="resume_link">Resume</div>

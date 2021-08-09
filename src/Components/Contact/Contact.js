@@ -3,7 +3,7 @@ import "./Contact.css";
 class Contact extends React.Component {
 render() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
     <div className="Contact_page">
     <p className="labels">Contact Me</p>
     {/* <div className="contact_image">
@@ -26,6 +26,7 @@ render() {
     <input type="submit" value="Send" />
     </form>
     </div>
+   
     </div>
     </div>
   );
